@@ -1,32 +1,7 @@
-set nocompatible
-set noswapfile
-filetype off
-
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-Bundle 'scrooloose/nerdtree'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-surround'
-Bundle 'kien/ctrlp.vim'
-Bundle 'digitaltoad/vim-jade'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Raimondi/delimitMate'
-Bundle 'vim-scripts/VimClojure'
-Bundle 'tComment'
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
-Bundle "honza/vim-snippets"
-Bundle 'tpope/vim-fireplace'
-Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'kovisoft/slimv'
-Bundle 'guns/vim-clojure-static'
-Bundle 'flazz/vim-colorschemes'
-Bundle 'tpope/vim-endwise'
-Bundle 'elixir-lang/vim-elixir'
-
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+autocmd vimenter * NERDTree
 filetype plugin indent on
 syntax on
 set t_Co=256
