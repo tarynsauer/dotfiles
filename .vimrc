@@ -1,4 +1,4 @@
-et nocompatible
+set nocompatible
 set noswapfile
 filetype off
 
