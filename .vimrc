@@ -1,11 +1,16 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
+autocmd FileType ruby compiler ruby
 syntax on
+filetype on           " Enable filetype detection
+filetype indent on    " Enable filetype-specific indenting
+filetype plugin on    " Enable filetype-specific plugins
 set t_Co=256
 colo molokai
 
+set guifont=Menlo\ Regular:h15
 set noswapfile
 set nowrap
 set scrolloff=2
@@ -19,38 +24,27 @@ set smartindent
 set tw=80
 set fo+=t
 set backspace=indent,eol,start
-
-set lines=100 columns=200
+set clipboard=unnamed
 set incsearch
 set hlsearch
 set noerrorbells
+set wildmenu
+set wildmode=list:longest
 
-let mapleader=','
 let g:ctrlp_map='<c-p>'
-let g:NERDTreeWinSize=30
 let g:vimclojure#HighlightBuiltins = 1
 let g:vimclojure#ParenRainbow = 1
 let g:vimclojure#FuzzyIndent = 1
 let mapleader = ","
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
+let g:javascript_plugin_flow = 1
 
 map <C-J> <C-W><Down><C-W>_
 map <C-K> <C-W><Up><C-W>_
 map <C-L> <C-W><Right><C-W>_
 map <C-H> <C-W><Left><C-W>_
-
-nmap <leader>ne :NERDTree<cr>
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
-
-nnoremap <leader>at :SwitchARoo<cr>
-nnoremap <leader>as :SwitchARooHorizontal<cr>
-nnoremap <leader>av :SwitchARooVertical<cr>
-nnoremap <leader>aj :SwitchToJavascript<cr>
-
-nmap oo o<Esc>k
-nmap OO O<Esc>j
 
 let g:rbpt_colorpairs = [
   \ [ '13', '#6c71c4'],
