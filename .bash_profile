@@ -44,12 +44,6 @@ function prompt {
 
 prompt
 
-# added by Anaconda 2.3.0 installer
-export PATH="/Users/tarynsauer/anaconda/bin:$PATH"
-export RANCHER_ACCESS_KEY="476664520254BD0791B4"
-export RANCHER_SECRET_KEY="cDquPrQHb1pSaWFJhURMwFmg7SBqYonPhMELL11v"
-export RANCHER_URL="https://rancher-us-east-1.raise.com/v1/projects/1a7"
-
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export PATH="/usr/local/sbin:$PATH"
