@@ -57,16 +57,6 @@ let g:rbpt_colorpairs = [
   \ [ 'red', 'firebrick3'],
   \ ]
 
-" Enable rainbow parentheses for all buffers
- augroup rainbow_parentheses
- au!
- au VimEnter * RainbowParenthesesActivate
- au BufEnter * RainbowParenthesesLoadRound
- au BufEnter * RainbowParenthesesLoadSquare
- au BufEnter * RainbowParenthesesLoadBraces
- au BufNewFile,BufRead *.ejs set filetype=html
- augroup END
-
 " Remove all trailing whitespace
 function! TrimWhiteSpace()
   %s/\s\+$//e
