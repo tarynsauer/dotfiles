@@ -6,7 +6,6 @@
   ▸ molokai/
   ▸ neocomplete.vim/
   ▸ nerdtree/
-  ▸ rainbow_parentheses.vim/
   ▸ tcomment_vim/
   ▸ vim-coffee-script/
   ▸ vim-elixir/
