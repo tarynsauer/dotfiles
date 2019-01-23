@@ -8,7 +8,6 @@
   ▸ nerdtree/
   ▸ tcomment_vim/
   ▸ vim-coffee-script/
-  ▸ vim-fugitive/
   ▸ vim-javascript/
   ▸ vim-jsx/
   ▸ vim-ruby/
