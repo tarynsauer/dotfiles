@@ -8,14 +8,10 @@
   ▸ nerdtree/
   ▸ tcomment_vim/
   ▸ vim-coffee-script/
-  ▸ vim-elixir/
-  ▸ vim-fireplace/
   ▸ vim-fugitive/
-  ▸ vim-go/
   ▸ vim-javascript/
   ▸ vim-jsx/
   ▸ vim-ruby/
-  ▸ vim-scala/
 ▾ colors/
     solarized.vim
 
