@@ -19,3 +19,7 @@
   ▸ vim-scala/
 ▾ colors/
     solarized.vim
+
+
+
+https://githowto.com/aliases
